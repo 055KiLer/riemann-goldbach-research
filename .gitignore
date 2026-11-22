@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+*.npy
+*.c64
+.lake/
+*.olean

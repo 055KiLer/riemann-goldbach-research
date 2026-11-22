@@ -1,0 +1,5 @@
+q=   256  RMS|ΔM|=    19.923  RMS ΔM/√q=  1.245  RMS ΔM/(q/2)= 0.1556  (corrected RMS |E-M|/√q ~ 3.12)
+q=  1024  RMS|ΔM|=    75.607  RMS ΔM/√q=  2.363  RMS ΔM/(q/2)= 0.1477  (corrected RMS |E-M|/√q ~ 5.37)
+q=  4096  RMS|ΔM|=   321.283  RMS ΔM/√q=  5.020  RMS ΔM/(q/2)= 0.1569  (corrected RMS |E-M|/√q ~ 3.37)
+q= 16384  RMS|ΔM|=  1189.090  RMS ΔM/√q=  9.290  RMS ΔM/(q/2)= 0.1452  (corrected RMS |E-M|/√q ~ 3.78)
+q= 65536  RMS|ΔM|=  5195.806  RMS ΔM/√q= 20.296  RMS ΔM/(q/2)= 0.1586  (corrected RMS |E-M|/√q ~ 4.59)

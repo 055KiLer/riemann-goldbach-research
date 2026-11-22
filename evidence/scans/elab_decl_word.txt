@@ -1,0 +1,4 @@
+src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CutCptCopy.lean:87:elab "cpt_copy_thms" : command => do
+src/Formalism/LocalToGlobal/NumberFieldFamilies/OwnStruct.lean:53:elab "kcopy " t:term : tactic => withMainContext do
+src/Formalism/LocalToGlobal/NumberFieldFamilies/OwnStruct.lean:60:elab "#kcopy_probe " t:term " : " ty:term : command => Command.runTermElabM fun _ => do
+src/Formalism/LocalToGlobal/IndefiniteReal/HeckeNonvanishing/Imports.lean:5:elab "kexactB " e:term : tactic => withMainContext do

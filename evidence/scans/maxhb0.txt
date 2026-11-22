@@ -1,0 +1,4 @@
+src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CutMainCpt.lean:944:set_option maxHeartbeats 0 in
+src/Formalism/SharpRestriction/LevelLetterCocycles/UniformizerClauseOfAdmittedAlt.lean:51:set_option maxHeartbeats 0 in
+src/Formalism/SharpRestriction/LevelLetterCocycles/UniformizerClauseOfAdmitted.lean:48:set_option maxHeartbeats 0 in
+src/Development/WeilBound/CoreStatements/PublishedTheorems/PoitouTateDuality/PtfsShaFinal.lean:26:set_option maxHeartbeats 0 in

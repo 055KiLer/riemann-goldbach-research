@@ -1,0 +1,5 @@
+q=   60 phi*=   3  median|E-M_correct|=     5.269   median|E-M_buggy|=     5.782   buggy/correct=    1.10
+q=  120 phi*=   6  median|E-M_correct|=     8.147   median|E-M_buggy|=     10.36   buggy/correct=    1.27
+q=  720 phi*=  48  median|E-M_correct|=     22.09   median|E-M_buggy|=     25.18   buggy/correct=    1.14
+q= 1000 phi*= 160  median|E-M_correct|=     53.29   median|E-M_buggy|=     95.45   buggy/correct=    1.79
+q= 2000 phi*= 320  median|E-M_correct|=     88.29   median|E-M_buggy|=     134.5   buggy/correct=    1.52

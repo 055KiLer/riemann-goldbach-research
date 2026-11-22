@@ -1,0 +1,5 @@
+Formalism.PeriodIntegrals.UnitaryGroupMassFormula.ChebyshevPrimeBounds.SmallLoop	rc=0	flags: --config:whnf=100000000000 --config:whnfEager=100000000000 --config:lazyDelta=100000000000	checked 10 declarations	T 36.02 33.15 10560888	
+Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DyadicPrimeIntervals.Run2	rc=0	flags: --config:whnf=100000000000 --config:whnfEager=100000000000 --config:lazyDelta=100000000000	checked 2 declarations	T 15.31 13.58 7457936	
+Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DyadicPrimeIntervals.Run3	rc=0	flags: --config:whnf=100000000000 --config:whnfEager=100000000000 --config:lazyDelta=100000000000	checked 2 declarations	T 15.37 13.27 7475572	
+Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DyadicPrimeIntervals.Run4	rc=0	flags: --config:whnf=100000000000 --config:whnfEager=100000000000 --config:lazyDelta=100000000000	checked 2 declarations	T 14.71 13.24 7473040
+Formalism.PeriodIntegrals.UnitaryGroupMassFormula.DyadicPrimeIntervals.Run1	rc=0	flags: --config:whnf=100000000000 --config:whnfEager=100000000000 --config:lazyDelta=100000000000	checked 2 declarations	T 15.40 13.66 7463904	

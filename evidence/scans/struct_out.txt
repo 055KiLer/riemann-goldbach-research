@@ -1,0 +1,176 @@
+files from wc: 175187
+modules: 175187
+external import roots: [('Mathlib', 156238), ('Lean', 12), ('Development', 4), ('Batteries', 3), ('GroundTheory', 3), ('Formalism', 1), ('Ground', 1)]
+Main closure modules: 147152  lines: 15115312
+Statements closure modules: 1  lines: 16
+Statements in Main closure? True
+modules never imported locally: 45  lines: 3490
+modules NOT reachable from Main: 28035  lines: 2258903
+Main-reachable as % of all lines: 87.00%
+distinct contents: 175173  duplicate groups: 9  files in dup groups: 23
+total lines in duplicated files: 713  redundant lines if deduped: 359
+
+TOP DUP GROUPS BY COUNT:
+ count=6 lines_each=1 sample=./ReciprocityTheory/ReductiveGroups/TraceFormulas/ImportsAlt.lean
+ count=3 lines_each=1 sample=./Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/HodgeBundleWeights/TamagawaNumberSpecialUnitary.lean
+ count=2 lines_each=77 sample=./PositivityTheory/AutomorphicForms/PublishedInputs/BorelInjectivity/EquivariantProjections/ExistsEquivariantProjOfLeSumIrreducible.lean
+ count=2 lines_each=25 sample=./Lemmata/GeneralBFact/Imports.lean
+ count=2 lines_each=51 sample=./Lemmata/ProductIdentities/ProdInvZpowMulOfProdZpowEqOne.lean
+ count=2 lines_each=37 sample=./Lemmata/GeneralBFactThirdAlt/Imports.lean
+ count=2 lines_each=22 sample=./Lemmata/GeneralBFactLast/Imports.lean
+ count=2 lines_each=90 sample=./CompanionTheory/HarishChandraModules/KFiniteAnalyticVectors/AnalyticIntertwiners/GelfandCentralHolds.lean
+
+TOP FILES BY LINES:
+ 17981 src/Formalism/HermitianCurvature/HermitianCurvatureProofs/IsAdmissibleSplittingCharPairMulTwist.lean
+ 9252 src/Formalism/SharpRestriction/CuspSpanNormBounds/LatticeGluingRadicals.lean
+ 8029 src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/FixPiIff.lean
+ 6945 src/Formalism/SharpRestriction/CuspSpanNormBounds/KappaEndpoints.lean
+ 6929 src/Formalism/HermitianCurvature/HermitianCurvatureProofs/UnipotentCoordinatesMeasurePreserving.lean
+ 6333 src/Formalism/SharpRestriction/CuspSpanNormBounds/OscillatoryIntegralBounds.lean
+ 6205 src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CoordinateCommuteRaisingConstant.lean
+ 6170 src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/CovariantDegrees.lean
+ 5833 src/Formalism/SharpRestriction/GrowthBounds/WittFrameLocaliserOrders.lean
+ 5746 src/Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/MemOfClosed.lean
+
+line stats: total=17374215 mean=99.2 median=58 max=17981
+files <= 0 lines: 0 (0.0%)
+files <= 1 lines: 54 (0.0%)
+files <= 2 lines: 66 (0.0%)
+files <= 5 lines: 356 (0.2%)
+files <= 10 lines: 20937 (12.0%)
+files <= 20 lines: 49487 (28.2%)
+files <= 50 lines: 80928 (46.2%)
+files <= 100 lines: 116195 (66.3%)
+zero-line files: 0
+
+=== DETAILS ===
+DUP count=6 lines=1
+    ./ReciprocityTheory/ReductiveGroups/TraceFormulas/ImportsAlt.lean
+    ./ReciprocityTheory/ReductiveGroups/TraceFormulas/LatIso.lean
+    ./ReciprocityTheory/ReductiveGroups/TraceFormulas/LatInv.lean
+    ./ReciprocityTheory/ReductiveGroups/TraceFormulas/LatClose.lean
+DUP count=3 lines=1
+    ./Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/HodgeBundleWeights/TamagawaNumberSpecialUnitary.lean
+    ./Development/AutomorphicArithmetic/ThetaCorrespondence/ThetaPairLifts/ThirdPlaceSeries/CohomologicalCsdTempered.lean
+    ./Development/AutomorphicArithmetic/AutomorphicVarieties/ModularityArgument/ThresholdArguments/DenseThresholdCases/DiscreteSeriesCoefficientsCuspidal.lean
+DUP count=2 lines=77
+    ./PositivityTheory/AutomorphicForms/PublishedInputs/BorelInjectivity/EquivariantProjections/ExistsEquivariantProjOfLeSumIrreducible.lean
+    ./Development/AbelianVarietyTheory/Proofs/GlobalInterpolation/ExistsEquivariantProjOfLeSumIrreducible.lean
+DUP count=2 lines=25
+    ./Lemmata/GeneralBFact/Imports.lean
+    ./Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/CapelliComplements/GeneralBFact.lean
+DUP count=2 lines=51
+    ./Lemmata/ProductIdentities/ProdInvZpowMulOfProdZpowEqOne.lean
+    ./Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/CapelliComplements/ProductIdentities.lean
+DUP count=2 lines=37
+    ./Lemmata/GeneralBFactThirdAlt/Imports.lean
+    ./Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/CapelliComplements/GeneralBFactThird.lean
+DUP count=2 lines=22
+    ./Lemmata/GeneralBFactLast/Imports.lean
+    ./Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/CapelliComplements/GeneralBFactAlt.lean
+DUP count=2 lines=90
+    ./CompanionTheory/HarishChandraModules/KFiniteAnalyticVectors/AnalyticIntertwiners/GelfandCentralHolds.lean
+    ./Development/WeilBound/HeckeVectors/SmoothVectors/SobolevApproximation/GelfandCentralHolds.lean
+DUP count=2 lines=50
+    ./Development/AutomorphicArithmetic/AutomorphicVarieties/ModularityArgument/ClozelCohomology/ContinuousEntryPairings/ExistsConjPolynomialDefiniteUnitaryRational.lean
+    ./Development/AbelianVarietyTheory/Proofs/GlobalInterpolation/ExistsConjPolynomialDefiniteUnitaryRational.lean
+
+UNRESOLVED local-looking imports:
+  Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.CapelliComplements.KappaIntegralBound imports Formalism.
+  Development.AutomorphicArithmetic.CharacterBoxes.RiemannHypothesisOfEveryCharacter imports Development.AbelianVarietyTheory.Proofs.TwistedOperator
+  Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.ThresholdArguments.DenseThresholdCases.TemperedProductOfSquareIntegrable imports Development.WeilBound.CoreStatements.StandardPublishedResults.StandardTheoremState
+  Development.AbelianVarietyTheory.Definitions.GlobalTwisting.DiscreteSeriesCoefficientsCuspidal imports Development.AbelianVarietyTheory.PublishedTheorem
+  Development.ResolutionOfSingularities.EmbeddedResolution.StrongResolution.AffineCentersOverSingularLocus imports Development.ResolutionOfSingularities.EmbeddedResolutio
+  GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.Assembly imports Ground
+  GroundTheory.HeightsAndTheta.Heights.LocalFiniteness.HilbertSamuelGrowthOffHypersurfacePolynomial imports GroundTheory.HeightsAndT
+  GroundTheory.HeightsAndTheta.Heights.LocalFiniteness.KeyFormulaVanishingCechMultInvariants imports GroundTheory.HeightsAndTh
+  GroundTheory.HeightsAndTheta.Heights.HilbertSamuel.AssemblyBase imports GroundTheory.
+
+NEVER-IMPORTED local modules (all 45):
+   Development.AbelianVarietyTheory.Proofs.DivisorProofs.CovolumeOfSlimAndHyp 27
+   Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.NormalCompletionSt 13
+   Development.AbelianVarietyTheory.PublishedTheorems.GaloisCohomology₂.ExistsLeKsOfGood 32
+   Development.AbelianVarietyTheory.PublishedTheorems.RosatiTraces.RosatiTracePosStIff 26
+   Development.AbelianVarietyTheory.PublishedTheorems.RosatiTraces.TateCharPolyStIffIsCharPoly 59
+   Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.ThresholdArguments.DenseThresholdCases.LitCharCrys 11
+   Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.AlLocalGlobalAboveLPstlocalGlobalAboveL 3
+   Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.LitCharCrys 12
+   Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.SiegelEisensteinSecondTermHypotheses 76
+   Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.TopCovolSlim2Use 25
+   Development.WeilBound.CoreStatements.TemperedRepresentationTheory.NefDivisors.NefRR 54
+   Development.WeilBound.RepresentationTheoryGL.ConstantTermFiniteness.CuspidalConstantTerms.FiniteOfCuspOfConstTerm 136
+   Development.WeilBound.RepresentationTheoryGL.DiscreteSeries.DiscreteSeriesCovers.FdTopB 11
+   Development.WeilBound.RepresentationTheoryGL.EisensteinSeries.SiegelEisensteinContinuation.EisensteinChartSplitting.SiegelEisensteinContinuation 12
+   Formalism.HermitianCurvature.HermitianCurvatureProofs.ChainAndRowSums 130
+   Formalism.HermitianCurvature.HermitianCurvatureProofs.DbarConjugationWeight 101
+   Formalism.HermitianCurvature.HermitianCurvatureProofs.DiscMeanValue 238
+   Formalism.HermitianCurvature.HermitianCurvatureProofs.EigenvalueInterlacing 9
+   Formalism.HermitianCurvature.HermitianCurvatureProofs.InnerDensityThreshold 157
+   Formalism.HermitianCurvature.HermitianCurvatureProofs.JacobianAeNonzero 141
+   Formalism.HermitianCurvature.HermitianCurvatureProofs.LeDivOfMulEqLe 100
+   Formalism.HermitianCurvature.HermitianCurvatureProofs.LeftToRightConversion 293
+   Formalism.HermitianCurvature.HermitianCurvatureProofs.MirrorDecomposition 4
+   Formalism.HermitianCurvature.HermitianCurvatureProofs.NormEntryBounds 143
+   Formalism.HermitianCurvature.HermitianCurvatureProofs.OmegaNormCofactorOfParts 142
+   Formalism.HermitianCurvature.HermitianCurvatureProofs.OperatorsCommuteTranslations 10
+   Formalism.HermitianCurvature.HermitianCurvatureProofs.PolynomialTheoremCorollary 238
+   Formalism.HermitianCurvature.HermitianCurvatureProofs.PolynomialTheoremsAssembly 182
+   Formalism.HermitianCurvature.HermitianCurvatureProofs.RestrictedDualKernel 68
+   Formalism.HermitianCurvature.HermitianCurvatureProofs.RuleCDerivatives 4
+   Formalism.HermitianCurvature.HermitianCurvatureProofs.ScaleThresholdCharacters 190
+   Formalism.HermitianCurvature.HermitianCurvatureProofs.ThirdCountLemmaVariant 40
+   Formalism.HermitianCurvature.HermitianCurvatureProofs.ThresholdExponentEstimate 75
+   Formalism.HermitianCurvature.HermitianCurvatureProofs.TorusArgumentMultiplicative 111
+   Formalism.HermitianCurvature.HermitianCurvatureProofs.XiYZhatIdentity 5
+   GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PVarSlabMeasure 25
+   GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PVarietyProjectionMass 70
+   GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PVarietySlabMeasure 148
+   GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.PZeroSetOpenMass 77
+   GroundTheory.HeightsAndTheta.Heights.ElementarySymmetric.BergmanLerpSelf 82
+   GroundTheory.HeightsAndTheta.Heights.ElementarySymmetric.PProjDegGenDeg 33
+   GroundTheory.HeightsAndTheta.Heights.ElementarySymmetric.PZCombLimit 16
+   GroundTheory.HeightsAndTheta.Heights.MultinomialWeights.PPolarisationBound 55
+   GroundTheory.HeightsAndTheta.Heights.MultinomialWeights.PPolarisationCoeff 83
+   GroundTheory.HeightsAndTheta.Heights.OrbitLimits.MoriwakiHSClosed 23
+
+UNREACHABLE-FROM-Main per top dir:
+  Development           24865 files   1937877 lines
+  GroundTheory           2774 files    265479 lines
+  Formalism               220 files     29786 lines
+  ReciprocityTheory       159 files     23122 lines
+  CompanionTheory          16 files      2600 lines
+  Lemmata                   1 files        39 lines
+
+files with duplicate basenames: 4053 basenames; max: [('Imports.lean', 375), ('Statement.lean', 86), ('Development.lean', 85), ('ImportsAlt.lean', 82), ('Assembly.lean', 58)]
+
+UNICODE DIR PAIRS:
+  Development/AbelianVarietyTheory/PublishedTheorems/AdelicLattices₂ : no base dir
+  Development/AbelianVarietyTheory/PublishedTheorems/DiscreteSeriesUnitary₂ : no base dir
+  Development/AbelianVarietyTheory/PublishedTheorems/GaloisCohomology₂ : no base dir
+  Development/AbelianVarietyTheory/PublishedTheorems/Divisors₂ : no base dir
+  Development/AbelianVarietyTheory/PublishedTheorems/GaloisGeometry₂ : no base dir
+  Development/AbelianVarietyTheory/PublishedTheorems/SemistableReduction₂ : no base dir
+  Development/AbelianVarietyTheory/PublishedTheorems/SiegelWeil₂ : no base dir
+  Development/AbelianVarietyTheory/PublishedTheorems/Landherr₂ : no base dir
+  Development/AbelianVarietyTheory/PublishedTheorems/DiscreteSeries₂ : no base dir
+  Development/AbelianVarietyTheory/PublishedTheorems/AutomorphicForms₂ : no base dir
+  Development/AutomorphicSpectrum/PublishedTheorems/Metrics₂ : no base dir
+  Development/AutomorphicSpectrum/PublishedTheorems/SiegelWeil₂ : no base dir
+  Development/AutomorphicSpectrum/PublishedTheorems/Algebra₂ : no base dir
+  Development/AutomorphicSpectrum/PublishedTheorems/Geometry₂ : no base dir
+  Development/AutomorphicSpectrum/PublishedTheorems/Divisibility₂ : no base dir
+  Development/AutomorphicSpectrum/PublishedTheorems/Jets₂ : no base dir
+name pattern '_alt'       files: 2
+name pattern 'Alt.lean'   files: 0
+name pattern '_old'       files: 0
+name pattern 'Old.lean'   files: 0
+name pattern 'Copy'       files: 30
+name pattern '_copy'      files: 0
+name pattern 'Cpt'        files: 168
+name pattern 'Duplicate'  files: 0
+name pattern '_v2'        files: 0
+name pattern 'V2.lean'    files: 0
+name pattern '_new'       files: 0
+name pattern '_backup'    files: 0
+name pattern ' 2.lean'    files: 0
+name pattern '₂'          files: 394

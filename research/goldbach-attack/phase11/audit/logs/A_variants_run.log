@@ -1,0 +1,6 @@
+q=1001 set(ia=0.7) ratios: canon=   0.338 noH=   0.451 Xrev=   0.545 Zswap=   6.248
+q=1001 set(ia=2.6) ratios: canon=   4.623 noH=  11.576 Xrev=  16.203 Zswap=  44.236
+q=1001 set(ia=-2.4) ratios: canon=   3.008 noH=   9.242 Xrev=  14.441 Zswap=   5.821
+q=2003 set(ia=0.7) ratios: canon=   3.554 noH=   3.378 Xrev=   3.665 Zswap=  15.610
+q=2003 set(ia=2.6) ratios: canon=  10.333 noH=  12.843 Xrev=  12.111 Zswap=  90.123
+q=2003 set(ia=-2.4) ratios: canon=  19.404 noH=  19.076 Xrev=  15.864 Zswap=  49.698

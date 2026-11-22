@@ -1,0 +1,25 @@
+q= 1009 eta0.02_set      |E-M|/sqrtq=     17.12  rel=0.5820059703838213  ok=True
+q= 1009 eta0.02_set      |E-M|/sqrtq=     8.158  rel=0.7963152377686091  ok=True
+q= 1009 nearpole_eps0.02 |E-M|/sqrtq=     4.862  rel=0.08812046770324186  ok=True
+q= 1009 nearpole_eps0.1  |E-M|/sqrtq=     4.549  rel=0.09026019594659009  ok=True
+q= 1009 Rea0.625         |E-M|/sqrtq=     1.641  rel=0.05530248973150495  ok=True
+q= 1009 Rea0.375         |E-M|/sqrtq=     5.251  rel=0.1819432796462229  ok=True
+q= 1009 Tbig             |E-M|/sqrtq=     8.773  rel=0.3001834733008881  ok=True
+q= 1009 Tbig             |E-M|/sqrtq=     16.09  rel=0.7003689380255619  ok=True
+q= 2000 eta0.02_set      |E-M|/sqrtq=     14.22  rel=1.9540523521480624  ok=True
+q= 2000 eta0.02_set      |E-M|/sqrtq=     37.41  rel=7.123758519666211  ok=True
+q= 2000 nearpole_eps0.02 |E-M|/sqrtq=     1.125  rel=0.08735199265039867  ok=True
+q= 2000 nearpole_eps0.1  |E-M|/sqrtq=     1.082  rel=0.09341962513808952  ok=True
+q= 2000 Rea0.625         |E-M|/sqrtq=     1.418  rel=0.195848575223604  ok=True
+q= 2000 Rea0.375         |E-M|/sqrtq=     2.798  rel=0.40298173033973456  ok=True
+q= 2000 Tbig             |E-M|/sqrtq=     1.496  rel=0.22190507287125036  ok=True
+q= 2000 Tbig             |E-M|/sqrtq=      1.33  rel=0.1296856356834095  ok=True
+q= 1001 eta0.02_set      |E-M|/sqrtq=     2.912  rel=0.2196675976431432  ok=True
+q= 1001 eta0.02_set      |E-M|/sqrtq=     12.83  rel=0.7892284521034871  ok=True
+q= 1001 nearpole_eps0.02 |E-M|/sqrtq=     4.663  rel=0.16823773586589807  ok=True
+q= 1001 nearpole_eps0.1  |E-M|/sqrtq=     4.394  rel=0.17371876870359915  ok=True
+q= 1001 Rea0.625         |E-M|/sqrtq=    0.7256  rel=0.054611149424502584  ok=True
+q= 1001 Rea0.375         |E-M|/sqrtq=     1.971  rel=0.13331535715135046  ok=True
+q= 1001 Tbig             |E-M|/sqrtq=     7.376  rel=0.5512983060111329  ok=True
+q= 1001 Tbig             |E-M|/sqrtq=     4.626  rel=0.32749862718789  ok=True
+TOTAL 83.6920394897461

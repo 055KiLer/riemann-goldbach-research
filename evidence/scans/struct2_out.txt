@@ -1,0 +1,95 @@
+external import roots: [('Mathlib', 156238), ('Lean', 12), ('Batteries', 3)]
+files importing exactly Mathlib: 136003
+files importing Mathlib.*: 269
+files with zero imports: 0
+
+Main closure modules: 175187  lines: 17374215
+not reachable from Main: 0  lines: 0
+max depth from Main: 43  modules by depth: [(10, 15539), (11, 15237), (12, 15095), (9, 14262), (13, 13274), (14, 11747), (15, 10397), (8, 9956)]
+
+dir | reachable_files reachable_lines | unreachable_files unreachable_lines
+Development       141928   12232663 |       0          0
+Formalism          18254    3200748 |       0          0
+GroundTheory        8507    1119138 |       0          0
+ReciprocityTheory    3845     563016 |       0          0
+CompanionTheory     2027     194218 |       0          0
+PositivityTheory     449      55130 |       0          0
+Lemmata              167       9232 |       0          0
+Supplements            3         22 |       0          0
+BuildAid               5         20 |       0          0
+Statements.lean        1         16 |       0          0
+Main.lean              1         12 |       0          0
+
+TOP FAN-OUT (imports per file):
+   370 Formalism.HermitianCurvature.HeisenbergConjugationMeasurePreserving
+   321 GroundTheory.HeightsAndTheta.Heights.ComplexAnalyticSets.Assembly
+   276 Development.AutomorphicArithmetic.IntegralCasts.CapelliIdentities.CapelliComplements.KappaIntegralBound
+   232 GroundTheory.HeightsAndTheta.Heights.HilbertSamuel.AssemblyBase
+   224 Development.AbelianVarietyTheory.Definitions.GlobalTwisting.DiscreteSeriesCoefficientsCuspidal
+   220 Development.ResolutionOfSingularities.EmbeddedResolution.StrongResolution.AffineCentersOverSingularLocus
+   213 GroundTheory.HeightsAndTheta.Heights.LocalFiniteness.HilbertSamuelGrowthOffHypersurfacePolynomial
+   209 Development.AutomorphicArithmetic.CharacterBoxes.RiemannHypothesisOfEveryCharacter
+   208 Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.EveryCharacterOfLiteratureOfVWin
+   206 GroundTheory.HeightsAndTheta.Heights.LocalFiniteness.UniformIntegrabilityProportionalityHolds
+
+TOP FAN-IN (most imported local modules):
+  3088 Development.AbelianVarietyTheory.Definitions.Divisors.CTSmallCone
+  2972 Development.AbelianVarietyTheory.Definitions.Divisors.SiegelWeilAnisotropicHermitian
+  2518 Development.AbelianVarietyTheory.Definitions.Divisors.DiscreteSeriesHermitianUnique
+  2460 Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.ExistsNormLeHeightPow
+  2390 ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.UniformisationConclusion
+  2284 ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.UnifUniqSt
+  2242 Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.CohomologicalCsdTempered
+  1840 Development.AbelianVarietyTheory.Definitions.Divisors.ToKnownTheoremsOf
+  1684 Development.AbelianVarietyTheory.PublishedTheorems.TwistedTraceFormula.HarishChandraModulesOn
+  1429 ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.HeckeKer
+  1354 Development.AbelianVarietyTheory.PublishedTheorems.TwistedTraceFormula.AdmissibleDiscreteSeriesOfHasParam
+  1340 ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.ExtensionDescent.SecBaseChangeAnySt
+  1307 Development.AbelianVarietyTheory.BlockTheory.DivisorBase.WeilTensorModels
+  1206 ReciprocityTheory.ReductiveGroups.ArithmeticGeometry.BirationalGeometry.ToroidalCompactification.IsHolPeriods
+  1063 Development.AbelianVarietyTheory.Definitions.Degenerations.AdmissibleBaseOfCompleteDvr
+
+line count distribution:
+  <=   0:      0 files (0.0%)
+  <=   1:     54 files (0.0%)
+  <=   2:     66 files (0.0%)
+  <=   5:    356 files (0.2%)
+  <=  10:  20937 files (12.0%)
+  <=  20:  49487 files (28.2%)
+  <=  50:  80928 files (46.2%)
+  <= 100: 116195 files (66.3%)
+  <= 200: 151694 files (86.6%)
+  <= 500: 172771 files (98.6%)
+max file lines: 17981
+
+biggest files:
+    17981 Formalism/HermitianCurvature/HermitianCurvatureProofs/IsAdmissibleSplittingCharPairMulTwist.lean
+     9252 Formalism/SharpRestriction/CuspSpanNormBounds/LatticeGluingRadicals.lean
+     8029 Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/FixPiIff.lean
+     6945 Formalism/SharpRestriction/CuspSpanNormBounds/KappaEndpoints.lean
+     6929 Formalism/HermitianCurvature/HermitianCurvatureProofs/UnipotentCoordinatesMeasurePreserving.lean
+     6333 Formalism/SharpRestriction/CuspSpanNormBounds/OscillatoryIntegralBounds.lean
+     6205 Formalism/HermitianCurvature/HermitianCurvatureProofs/CoordinateCommuteRaisingConstant.lean
+     6170 Development/AutomorphicArithmetic/IntegralCasts/CapelliIdentities/CovariantDegrees.lean
+
+files containing TODO/FIXME/placeholder/AI/Claude/synthetic words:
+{'llm': 18, 'gpt': 1772, 'fake': 5}
+basename/path contains 'Alt'     : 751
+basename/path contains 'alt'     : 7
+basename/path contains 'Cpt'     : 168
+basename/path contains 'Copy'    : 30
+basename/path contains 'Clone'   : 0
+basename/path contains 'Dup'     : 4
+basename/path contains 'Bis'     : 357
+basename/path contains 'Second'  : 988
+basename/path contains 'Again'   : 16
+basename/path contains 'Redo'    : 0
+basename/path contains 'Try'     : 0
+basename/path contains 'workaround': 0
+basename/path contains 'admitted': 1
+basename/path contains 'Admitted': 54
+basename/path contains 'sorryFree': 0
+
+unicode-named modules: 394  unicode modules imported at least once: 394
+sample unicode imports: ['CompanionTheory.AutomorphicTheory.SegmentRepresentations.JacquetShalikaBounds.lift_levelP_alt₂', 'Development.AbelianVarietyTheory.PublishedTheorems.AdelicLattices₂.AlgebraMapNormOfBasisOneSqrt', 'Development.AbelianVarietyTheory.PublishedTheorems.AdelicLattices₂.ExistsFiniteOrthogonalLengths', 'Development.AbelianVarietyTheory.PublishedTheorems.AdelicLattices₂.ExistsFiniteRepresentatives', 'Development.AbelianVarietyTheory.PublishedTheorems.AdelicLattices₂.ExistsFiniteUnitaryClassesOfDualEqSmul', 'Development.AbelianVarietyTheory.PublishedTheorems.AdelicLattices₂.ExistsIntMulIsIntegralOfTrace', 'Development.AbelianVarietyTheory.PublishedTheorems.AdelicLattices₂.ExistsShortOfTraceDet', 'Development.AbelianVarietyTheory.PublishedTheorems.AdelicLattices₂.ThreeNeSqAddSq', 'Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.AbsPowOneNotIsAlgRat', 'Development.AbelianVarietyTheory.PublishedTheorems.AutomorphicForms₂.AdmissibleBaseChartRing']
+unicode modules reachable from Main: 394

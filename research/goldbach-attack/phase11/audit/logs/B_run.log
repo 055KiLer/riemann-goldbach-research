@@ -1,0 +1,65 @@
+q=503 eta=0.1 it=0.0 phi*=501 floor|E-M|=234 slope_dE=-0.21398274351708174 slope_dM=-0.23595779401658434 (naive -eta=-0.1)
+   X=    50 dE=     512.9 dM=     545.2 dEalt=     512.9
+   X=   100 dE=     426.4 dM=     462.2 dEalt=     426.4
+   X=   300 dE=     333.4 dM=     325.4 dEalt=     333.4
+   X=  1000 dE=       322 dM=     279.2 dEalt=       322
+   X=  3000 dE=     208.5 dM=     176.2 dEalt=     208.5
+q=503 eta=0.3 it=0.0 phi*=501 floor|E-M|=34.9 slope_dE=-0.41638390556543325 slope_dM=-0.5758325965566392 (naive -eta=-0.3)
+   X=    50 dE=     71.09 dM=     53.59 dEalt=     71.09
+   X=   100 dE=     46.05 dM=      31.5 dEalt=     46.05
+   X=   300 dE=     31.03 dM=     10.02 dEalt=     31.03
+   X=  1000 dE=     32.84 dM=     3.626 dEalt=     32.84
+   X=  3000 dE=     18.69 dM=     16.56 dEalt=     18.69
+/home/kiler/Windows-D/Rieman/_rh-work/goldbach-attack/phase11/audit/scripts/routec.py:32: RuntimeWarning: invalid value encountered in matmul
+  Ls=(g.T@bs)*np.exp(-complex(s)*LQq); Ltbar=(g.T.conj()@bt)*np.exp(-complex(t)*LQq)  # L(t,chibar)
+/home/kiler/Windows-D/Rieman/_rh-work/goldbach-attack/phase11/audit/scripts/routec.py:34: RuntimeWarning: invalid value encountered in divide
+  E_q=complex(np.sum((La*Lb/(Ls*Ltbar))[prim]))
+q=503 eta=0.5 it=0.0 phi*=501 floor|E-M|=nan slope_dE=None slope_dM=-0.5421529255307375 (naive -eta=-0.5)
+   X=    50 dE=       nan dM=     9.581 dEalt=       nan
+   X=   100 dE=       nan dM=     5.119 dEalt=       nan
+   X=   300 dE=       nan dM=     4.986 dEalt=       nan
+   X=  1000 dE=       nan dM=     4.268 dEalt=       nan
+   X=  3000 dE=       nan dM=     6.731 dEalt=       nan
+q=1001 eta=0.1 it=0.0 phi*=495 floor|E-M|=111 slope_dE=-0.20102877067261626 slope_dM=-0.14202101830517588 (naive -eta=-0.1)
+   X=    50 dE=     265.6 dM=     363.8 dEalt=     265.6
+   X=   100 dE=     202.3 dM=     306.4 dEalt=     202.3
+   X=   300 dE=     175.5 dM=     279.9 dEalt=     175.5
+   X=  1000 dE=     125.3 dM=     231.3 dEalt=     125.3
+   X=  3000 dE=     130.1 dM=     227.6 dEalt=     130.1
+q=1001 eta=0.3 it=0.0 phi*=495 floor|E-M|=34 slope_dE=-0.5855962204395805 slope_dM=-0.24443379021463885 (naive -eta=-0.3)
+   X=    50 dE=      24.1 dM=     55.83 dEalt=      24.1
+   X=   100 dE=     6.677 dM=     40.69 dEalt=     6.677
+   X=   300 dE=     7.623 dM=     40.95 dEalt=     7.623
+   X=  1000 dE=     1.719 dM=     34.25 dEalt=     1.719
+   X=  3000 dE=     7.088 dM=     36.72 dEalt=     7.088
+q=1001 eta=0.5 it=0.0 phi*=495 floor|E-M|=nan slope_dE=None slope_dM=-0.2266731780241035 (naive -eta=-0.5)
+   X=    50 dE=       nan dM=     22.97 dEalt=       nan
+   X=   100 dE=       nan dM=     17.88 dEalt=       nan
+   X=   300 dE=       nan dM=     20.04 dEalt=       nan
+   X=  1000 dE=       nan dM=     18.78 dEalt=       nan
+   X=  3000 dE=       nan dM=     19.62 dEalt=       nan
+q=2000 eta=0.1 it=0.0 phi*=320 floor|E-M|=518 slope_dE=-0.1137561607971256 slope_dM=-0.30558147301032956 (naive -eta=-0.1)
+   X=    50 dE=     877.8 dM=     371.2 dEalt=     877.8
+   X=   100 dE=       807 dM=     303.4 dEalt=       807
+   X=   300 dE=     747.5 dM=     253.5 dEalt=     747.5
+   X=  1000 dE=     625.1 dM=     123.4 dEalt=     625.1
+   X=  3000 dE=     567.6 dM=        82 dEalt=     567.6
+q=2000 eta=0.3 it=0.0 phi*=320 floor|E-M|=57.5 slope_dE=-0.3606447053806242 slope_dM=-0.30107129499297897 (naive -eta=-0.3)
+   X=    50 dE=     81.38 dM=      34.5 dEalt=     81.38
+   X=   100 dE=     60.84 dM=     24.23 dEalt=     60.84
+   X=   300 dE=     49.53 dM=     30.66 dEalt=     49.53
+   X=  1000 dE=     30.53 dM=     29.11 dEalt=     30.53
+   X=  3000 dE=     24.18 dM=     35.03 dEalt=     24.18
+q=2000 eta=0.5 it=0.0 phi*=320 floor|E-M|=nan slope_dE=None slope_dM=-0.323489773287397 (naive -eta=-0.5)
+   X=    50 dE=       nan dM=     6.057 dEalt=       nan
+   X=   100 dE=       nan dM=     8.012 dEalt=       nan
+   X=   300 dE=       nan dM=     11.74 dEalt=       nan
+   X=  1000 dE=       nan dM=     11.93 dEalt=       nan
+   X=  3000 dE=       nan dM=     12.92 dEalt=       nan
+q=1001 eta=0.3 it=0.8 phi*=495 floor|E-M|=65.8 slope_dE=0.13483365469131708 slope_dM=0.10478032104746911 (naive -eta=-0.3)
+   X=    50 dE=     254.1 dM=     299.7 dEalt=     67.82
+   X=   100 dE=     249.7 dM=     300.2 dEalt=     39.12
+   X=   300 dE=     251.1 dM=     305.9 dEalt=     17.98
+   X=  1000 dE=     239.9 dM=     295.9 dEalt=     5.578
+   X=  3000 dE=     237.2 dM=       293 dEalt=     2.693
+TOTAL 19.066513299942017

@@ -1,0 +1,2 @@
+src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CutCptCopy.lean:78:      addDecl (.defnDecl { d with name := n', type := subst tainted d.type, value := subst tainted d.value })
+src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CutCptCopy.lean:82:      addDecl (.thmDecl { t with name := n', type := subst tainted t.type, value := subst tainted t.value })

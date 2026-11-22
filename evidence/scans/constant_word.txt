@@ -1,0 +1,35 @@
+src/ReciprocityTheory/L2DbarEstimates/PlurisubharmonicCharts/FourIndep.lean:242:    have hcst : F b = F b' := hpre.constant hF hb hb'
+src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PPolynomialRootPredicateFactor.lean:217:    refine hB'c.constant (f := fun t => Multiset.card ((fiberPoly a t).roots.filter (Q t))) ?_
+src/GroundTheory/HeightsAndTheta/Heights/HilbertSamuel/IrreducibleConnected/PClopenPieceSheetCount.lean:100:  · exact ⟨f y₀, fun y hy => hΩc.constant hcont hy hy₀⟩
+src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PUnbranchedProperCountConstant.lean:31:  exact congrArg _ (hS.constant hcont ⟨hy, hyδ⟩ ⟨hy₀D, hy₀⟩)
+src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PProperOpenProjectionBranchLocus.lean:40:  have hN : ∀ y ∈ D, n y = n y₀ := fun y hy => hDc.constant hcont hy hy₀
+src/Development/EtaleCohomology/EtaleSheaves/LZHensFinitePf.lean:47:  exact ⟨fun x y => hp.constant (f := id) continuous_id⟩
+src/GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PLocalBranchedCovering.lean:154:      exact hpre.constant hccont ⟨hyD, hy⟩ hy₀
+src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/HolUnifPeriodMatrixRight.lean:138:    have hconst := PreconnectedSpace.constant (α := Fin d → ℂ) inferInstance hcont (x := δ) (y := 0)
+src/Development/AutomorphicSpectrum/Proofs/GeometryProofs/UniformizationIsoTransfer.lean:57:  have h := PreconnectedSpace.constant (inferInstance : PreconnectedSpace ℂ) hφ (x := 1) (y := 0)
+src/Development/AbelianVarietyTheory/Proofs/ModuliProofs/ExistsPeriodsEighthPowerEvenUnimodularBundle.lean:91:  have := PreconnectedSpace.constant (inferInstance : PreconnectedSpace ℂ) hc (x := 1) (y := 0)
+src/Development/AbelianVarietyTheory/Proofs/ModuliProofs/ExistsPeriodsComplexPELObject.lean:26:  have := PreconnectedSpace.constant inferInstance hc (x := z) (y := 0)
+src/Development/AbelianVarietyTheory/Proofs/ModuliProofs/ExistsLatticeAutOfIsomorphicThetaObjects.lean:26:  have h := congrArg Subtype.val (PreconnectedSpace.constant inferInstance hc (x := z) (y := 0))
+src/Development/AbelianVarietyTheory/Proofs/ToricGeometry/LevelThreeSeparatesTangentVectors.lean:202:  have := PreconnectedSpace.constant (inferInstance : PreconnectedSpace ℂ) hcont (x := 1) (y := 0)
+src/Development/AbelianVarietyTheory/Proofs/ThetaShiftProofs/FamilyUnifComponentConst.lean:55:  rw [hBc.constant hcont h0 hwB]
+src/Development/AbelianVarietyTheory/Proofs/ThetaShiftProofs/AbelianPartSectionNormSqEqThetaData.lean:406:    have h := PreconnectedSpace.constant (inferInstance : PreconnectedSpace ℂ) hc (x := 1) (y := 0)
+src/Development/AbelianVarietyTheory/Proofs/ThetaShiftProofs/ExistsRingHomLift.lean:39:  have := congrArg Subtype.val (PreconnectedSpace.constant inferInstance hc (x := z) (y := 0))
+src/Development/AbelianVarietyTheory/Proofs/ModuliProofs/ExistsUniformisationOfPoint.lean:99:  have e := congrArg Subtype.val (PreconnectedSpace.constant inferInstance hc (x := z) (y := 0))
+src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/LevelAutomorphismPeriodFamily.lean:147:    rw [hc.constant hcont hb₀ hb]
+src/Development/AbelianVarietyTheory/Proofs/CubicalLineBundles/CmActionPolarisedCurveAdjointConj.lean:29:  have h2 := congrArg Subtype.val (PreconnectedSpace.constant inferInstance hc (x := 1) (y := 0))
+src/Development/AbelianVarietyTheory/Proofs/CubicalLineBundles/EqZeroOfSumEmbeddingSmul.lean:68:  have := congrArg Subtype.val (PreconnectedSpace.constant inferInstance hc (x := z) (y := 0))
+src/Development/AbelianVarietyTheory/Proofs/UnitaryExistence/FamilyUnifExpUnique.lean:24:  have := congrArg Subtype.val (PreconnectedSpace.constant inferInstance hc (x := z) (y := 0))
+src/Development/AbelianVarietyTheory/Proofs/ThetaLawProofs/UnimodularAndTangentOfIsAH.lean:27:  have h := PreconnectedSpace.constant (inferInstance : PreconnectedSpace ℂ) hc (x := 1) (y := 0)
+src/Development/AbelianVarietyTheory/Proofs/DegenerationProofs/ExistsPullEndo.lean:75:    have := PreconnectedSpace.constant inferInstance hc (x := z) (y := 0)
+src/Development/AbelianVarietyTheory/Statements/PrincipalLattices/PhiNeOne.lean:79:    have := PreconnectedSpace.constant inferInstance hcont (x := 1) (y := 0)
+src/Development/AbelianVarietyTheory/Statements/PrincipalLattices/FiniteDimensionalBase.lean:155:  have e := congrArg Subtype.val (PreconnectedSpace.constant inferInstance hc (x := 1) (y := 0))
+src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/HodgeMetricEqConstMulRiemannFormOnExpChart.lean:78:    (GlobalTheory.T.isPreconnected_ball_inter_coords_ne_zero n a ha).constant hcont hz hz₁
+src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/ProdIdeleCharGlobalUnitEqOne.lean:28:    have e := PreconnectedSpace.constant inferInstance hc (x := y) (y := 1)
+src/Development/AbelianVarietyTheory/Proofs/InertiaEigenvalues/OrbitClassTrivial.lean:28:  have hconst : g (1 / p) = g 1 := isPreconnected_Ioc.constant gcont hr1 h1
+src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/ExistsConstIntegralCoordsLatticeSection.lean:123:  rw [← hB.constant hcont hb hb₀]
+src/Development/AbelianVarietyTheory/Proofs/IwasawaDecomposition/ExistsHolomorphicFrameOrbitLiftOfArc.lean:159:    have : ι w = k := (hcv.isPreconnected.constant hc hw hw₀).trans h0
+src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/AppellHumbertFactorOfHermitian.lean:64:  have := PreconnectedSpace.constant inferInstance hc (x := 1) (y := 0)
+src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/PeriodLatticeActionOfFiniteOrderAutomorphism.lean:53:  have h1 : D z = D 0 := PreconnectedSpace.constant inferInstance hD
+src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/AdditivePeriodExponentLinear.lean:61:    have e0 := hU.constant hmc hb hb0
+src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/PolynomialGrowthOfPeriodicIntegralSpans.lean:29:    exact hU.constant hcz hs hs₀
+src/Development/AbelianVarietyTheory/Proofs/DivisorProofs/ComplexPointsComponentSamePeriodSpace.lean:91:  exact (GlobalTheory.T.isPreconnected_complexPoints_open_variety c.F B e W).constant hcont hz hz'

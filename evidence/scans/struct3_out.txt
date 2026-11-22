@@ -1,0 +1,71 @@
+total import lines: 909822
+files with 0 imports: 0
+external roots: [('Mathlib', 156238), ('Lean', 12), ('Batteries', 3)]
+Main closure: 175187 of 175187  lines: 17374215
+not reachable: 0
+never imported by any local module: 0 lines: 0
+
+Main's direct imports: ['Statements', 'Supplements.Kernels.MainTheoremsAll']
+MainTheorems imports: ['Formalism.GammaFactorNonvanishing.CritLine', 'Development.AutomorphicArithmetic.CharacterBoxes.ClaimStrip', 'Development.AutomorphicArithmetic.CharacterBoxes.MainConclusion']
+MainTheoremsAll imports: ['Supplements.Kernels.MainTheoremsCritical', 'Development.AutomorphicArithmetic.AutomorphicVarieties.SmallClassNumbers.CorGKOf']
+MainTheoremsCritical imports: ['Supplements.Kernels.MainTheorems', 'Development.AutomorphicArithmetic.AutomorphicVarieties.SmallClassNumbers.ClassNumberThree', 'Development.AutomorphicArithmetic.AutomorphicVarieties.SmallClassNumbers.LenEqZeroIff', 'Development.AutomorphicArithmetic.AutomorphicVarieties.SmallClassNumbers.OnePoint']
+MainConclusion imports: ['Development.AutomorphicArithmetic.ThetaCorrespondence.ThetaPairLifts.ThirdPlaceSeries.EveryCharacterOfLiteratureOfVWin', 'Development.AutomorphicArithmetic.AutomorphicVarieties.ModularityArgument.ThresholdArguments.DenseThresholdCases.VwinOfRow', 'Development.AutomorphicArithmetic.Foundations.LocalLanglands.LocalCentralUnits.RecTExists', 'Development.AutomorphicArithmetic.Foundations.GaloisRepresentations.IntegralStructures.RowSrc', 'Development.AutomorphicArithmetic.CharacterBoxes.RiemannHypothesisOfEveryCharacter']
+
+=== SAMPLES ===
+
+## Development/WeilBound : 7051 lean files
+  Development/WeilBound/CoreStatements/AutomorphicKernels/UnitaryDualGL/GenericUnitaryDual/CongrProd.lean | noncomputable section
+  Development/WeilBound/RepresentationTheoryGL/SiegelWeilProof/HolomorphicContinuation/GaussianPlaneIntegrals/SecLineB.lean | noncomputable section
+  Development/WeilBound/RepresentationTheoryGL/UnitaryDualProof/TwistedPieces/FiniteDimensionalDescent/RestrictedCharpolys/FiniteCharpoly.lean | noncomputable section
+
+## Formalism/HermitianCurvature : 1922 lean files
+  Formalism/HermitianCurvature/HermitianCurvatureProofs/RightCapelliAsGenerators.lean             | open Formalism.REAL Formalism.QuantumDeterminants Formalism.FourierDecayAlt NumberField Matrix
+  Formalism/HermitianCurvature/HermitianCurvatureProofs/ResidueSquareIntegrableLevelZero.lean     | open MeasureTheory
+  Formalism/HermitianCurvature/HermitianCurvatureProofs/CutLam.lean                               | open Formalism.FourierDecayAlt
+
+## GroundTheory : 8507 lean files
+  GroundTheory/HeightsAndTheta/Heights/KleimanAmpleness/StatementsStepThreeOnW.lean               | set_option maxSynthPendingDepth 1
+  GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/StProperOpenProjectionLocalUnbranched.lean | set_option maxSynthPendingDepth 1
+  GroundTheory/HeightsAndTheta/Heights/ComplexAnalyticSets/PIntegralIndependent.lean              | set_option maxSynthPendingDepth 1
+
+## ReciprocityTheory : 3845 lean files
+  ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/ExtensionDescent/ThetaVV.lean              | set_option autoImplicit false
+  ReciprocityTheory/ReductiveGroups/ArithmeticGeometry/FirstCohomology/IntegralRingEmbedding.lean | set_option autoImplicit false
+  ReciprocityTheory/AnalyticForms/LeviForms/ProjectiveLineSecondChartSymmOfNe.lean                | namespace ReciprocityTheory.AnForm.P
+
+## CompanionTheory : 2027 lean files
+  CompanionTheory/SpectralGeometry/LocalGlobalProofs/StableLattices/HeckeRankOneStatement.lean    | set_option maxHeartbeats 1000000 in
+  CompanionTheory/AutomorphicTheory/BesselWaveGrids/SpanBall.lean                                 | noncomputable section
+  CompanionTheory/SpectralGeometry/LocalGlobalProofs/StableLattices/ImportsExtraSide.lean         | 
+
+## PositivityTheory : 449 lean files
+  PositivityTheory/AutomorphicForms/PublishedInputs/JacquetLanglands/TorusKernels/PfFell.lean     | noncomputable section
+  PositivityTheory/AutomorphicForms/PublishedInputs/RealGaloisRepresentations/IwahoriSphericalTransfer/SqrtNegMovedByInertia.lean | open NumberField IsDedekindDomain Neutral.B1 Formalism.L2.Host Formalism.ConjugateSelfDual ReciprocityTheory.G
+  PositivityTheory/AutomorphicForms/PublishedInputs/RealGaloisRepresentations/IwahoriSphericalTransfer/InertiaLeRangeOfUnramified.lean | open NumberField IsDedekindDomain Neutral.B1 Formalism.L2.Host Formalism.ConjugateSelfDual ReciprocityTheory.G
+
+## Development/AutomorphicArithmetic/CharacterBoxes : 37 lean files
+  Development/AutomorphicArithmetic/CharacterBoxes/HostOfField.lean                               | open Formalism.BasicNotions Formalism.MainNotions Formalism.MainNotions.Inhab Formalism.HC GlobalTheory.EX Upp
+  Development/AutomorphicArithmetic/CharacterBoxes/EventuallyRankLeRpowOfLtOneDivFiftytwo.lean    | open Formalism.BasicNotions GlobalTheory.EX
+  Development/AutomorphicArithmetic/CharacterBoxes/PairHyp.lean                                   | open Formalism.HC Formalism.FrobeniusOrbits UpperTheory.Top
+
+=== top subdirs by file count (depth<=3 from src) ===
+  141928 Development
+   99187 Development/AbelianVarietyTheory
+   95418 Development/AbelianVarietyTheory/Proofs
+   18431 Development/AutomorphicArithmetic
+   18254 Formalism
+   15147 Development/AutomorphicSpectrum
+   14864 Development/AutomorphicSpectrum/Proofs
+    8507 GroundTheory
+    7959 Development/AutomorphicArithmetic/AutomorphicVarieties
+    7051 Development/WeilBound
+    6410 GroundTheory/HeightsAndTheta
+    6348 GroundTheory/HeightsAndTheta/Heights
+    5501 Formalism/LocalToGlobal
+    4413 Development/AutomorphicArithmetic/Foundations
+    4350 Formalism/PeriodIntegrals
+    3845 ReciprocityTheory
+    3746 Development/WeilBound/CoreStatements
+    3615 Formalism/PeriodIntegrals/UnitaryGroupMassFormula
+    3201 Development/AutomorphicArithmetic/ThetaCorrespondence
+    3093 Formalism/SharpRestriction

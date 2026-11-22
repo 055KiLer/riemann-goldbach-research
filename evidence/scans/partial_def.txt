@@ -1,0 +1,2 @@
+src/Formalism/HermitianCurvature/HermitianCurvatureProofs/CutCptCopy.lean:41:partial def go (env : Environment) (n : Name) (st : NameSet × NameSet × Array Name) : NameSet × NameSet × Array Name :=
+src/Formalism/LocalToGlobal/NumberFieldFamilies/OwnStruct.lean:18:partial def copyAt (probe : Bool) (e tgt : Expr) (path : String) (fuel : Nat) : StateT (Array String) MetaM Expr := do

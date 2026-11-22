@@ -1,0 +1,67 @@
+q=503 eta=0.1 it=0.0 phi*=501 floor|E-M|=234 slope_dE=-0.21398274351708174 slope_dM=-0.23595779401658434 slope_dEfix=-0.21398274351708174 (naive -eta=-0.1)
+   X=    50 dE=     512.9 dM=     545.2 dEalt=     512.9 dEfix=     512.9
+   X=   100 dE=     426.4 dM=     462.2 dEalt=     426.4 dEfix=     426.4
+   X=   300 dE=     333.4 dM=     325.4 dEalt=     333.4 dEfix=     333.4
+   X=  1000 dE=       322 dM=     279.2 dEalt=       322 dEfix=       322
+   X=  3000 dE=     208.5 dM=     176.2 dEalt=     208.5 dEfix=     208.5
+q=503 eta=0.3 it=0.0 phi*=501 floor|E-M|=34.9 slope_dE=-0.41638390556543325 slope_dM=-0.5758325965566392 slope_dEfix=-0.41638390556543325 (naive -eta=-0.3)
+   X=    50 dE=     71.09 dM=     53.59 dEalt=     71.09 dEfix=     71.09
+   X=   100 dE=     46.05 dM=      31.5 dEalt=     46.05 dEfix=     46.05
+   X=   300 dE=     31.03 dM=     10.02 dEalt=     31.03 dEfix=     31.03
+   X=  1000 dE=     32.84 dM=     3.626 dEalt=     32.84 dEfix=     32.84
+   X=  3000 dE=     18.69 dM=     16.56 dEalt=     18.69 dEfix=     18.69
+q=503 eta=0.48 it=0.0 phi*=501 floor|E-M|=9.87 slope_dE=-0.6179231470814547 slope_dM=-0.5418515007784939 slope_dEfix=-0.6179231470814547 (naive -eta=-0.48)
+   X=    50 dE=      16.3 dM=     11.34 dEalt=      16.3 dEfix=      16.3
+   X=   100 dE=     7.456 dM=      5.88 dEalt=     7.456 dEfix=     7.456
+   X=   300 dE=       4.6 dM=     5.283 dEalt=       4.6 dEfix=       4.6
+   X=  1000 dE=     5.521 dM=     4.442 dEalt=     5.521 dEfix=     5.521
+   X=  3000 dE=     2.751 dM=     7.373 dEalt=     2.751 dEfix=     2.751
+q=1001 eta=0.1 it=0.0 phi*=495 floor|E-M|=111 slope_dE=-0.20102877067261626 slope_dM=-0.14202101830517588 slope_dEfix=-0.20102877067261626 (naive -eta=-0.1)
+   X=    50 dE=     265.6 dM=     363.8 dEalt=     265.6 dEfix=     265.6
+   X=   100 dE=     202.3 dM=     306.4 dEalt=     202.3 dEfix=     202.3
+   X=   300 dE=     175.5 dM=     279.9 dEalt=     175.5 dEfix=     175.5
+   X=  1000 dE=     125.3 dM=     231.3 dEalt=     125.3 dEfix=     125.3
+   X=  3000 dE=     130.1 dM=     227.6 dEalt=     130.1 dEfix=     130.1
+q=1001 eta=0.3 it=0.0 phi*=495 floor|E-M|=34 slope_dE=-0.5855962204395805 slope_dM=-0.24443379021463885 slope_dEfix=-0.5855962204395805 (naive -eta=-0.3)
+   X=    50 dE=      24.1 dM=     55.83 dEalt=      24.1 dEfix=      24.1
+   X=   100 dE=     6.677 dM=     40.69 dEalt=     6.677 dEfix=     6.677
+   X=   300 dE=     7.623 dM=     40.95 dEalt=     7.623 dEfix=     7.623
+   X=  1000 dE=     1.719 dM=     34.25 dEalt=     1.719 dEfix=     1.719
+   X=  3000 dE=     7.088 dM=     36.72 dEalt=     7.088 dEfix=     7.088
+q=1001 eta=0.48 it=0.0 phi*=495 floor|E-M|=20.3 slope_dE=-0.7002798089551585 slope_dM=-0.2304195135871027 slope_dEfix=-0.7002798089551585 (naive -eta=-0.48)
+   X=    50 dE=     5.617 dM=     24.44 dEalt=     5.617 dEfix=     5.617
+   X=   100 dE=     1.735 dM=     18.82 dEalt=     1.735 dEfix=     1.735
+   X=   300 dE=     1.363 dM=     21.03 dEalt=     1.363 dEfix=     1.363
+   X=  1000 dE=    0.9969 dM=     19.57 dEalt=    0.9969 dEfix=    0.9969
+   X=  3000 dE=     1.363 dM=     20.52 dEalt=     1.363 dEfix=     1.363
+q=2000 eta=0.1 it=0.0 phi*=320 floor|E-M|=518 slope_dE=-0.1137561607971256 slope_dM=-0.30558147301032956 slope_dEfix=-0.1137561607971256 (naive -eta=-0.1)
+   X=    50 dE=     877.8 dM=     371.2 dEalt=     877.8 dEfix=     877.8
+   X=   100 dE=       807 dM=     303.4 dEalt=       807 dEfix=       807
+   X=   300 dE=     747.5 dM=     253.5 dEalt=     747.5 dEfix=     747.5
+   X=  1000 dE=     625.1 dM=     123.4 dEalt=     625.1 dEfix=     625.1
+   X=  3000 dE=     567.6 dM=        82 dEalt=     567.6 dEfix=     567.6
+q=2000 eta=0.3 it=0.0 phi*=320 floor|E-M|=57.5 slope_dE=-0.3606447053806242 slope_dM=-0.30107129499297897 slope_dEfix=-0.3606447053806242 (naive -eta=-0.3)
+   X=    50 dE=     81.38 dM=      34.5 dEalt=     81.38 dEfix=     81.38
+   X=   100 dE=     60.84 dM=     24.23 dEalt=     60.84 dEfix=     60.84
+   X=   300 dE=     49.53 dM=     30.66 dEalt=     49.53 dEfix=     49.53
+   X=  1000 dE=     30.53 dM=     29.11 dEalt=     30.53 dEfix=     30.53
+   X=  3000 dE=     24.18 dM=     35.03 dEalt=     24.18 dEfix=     24.18
+q=2000 eta=0.48 it=0.0 phi*=320 floor|E-M|=17 slope_dE=-0.5771489304834881 slope_dM=-0.31850437944433846 slope_dEfix=-0.5771489304834881 (naive -eta=-0.48)
+   X=    50 dE=     18.62 dM=     7.189 dEalt=     18.62 dEfix=     18.62
+   X=   100 dE=     11.15 dM=      8.85 dEalt=     11.15 dEfix=     11.15
+   X=   300 dE=      8.44 dM=     12.99 dEalt=      8.44 dEfix=      8.44
+   X=  1000 dE=     4.041 dM=     13.18 dEalt=     4.041 dEfix=     4.041
+   X=  3000 dE=      2.85 dM=     14.34 dEalt=      2.85 dEfix=      2.85
+q=1001 eta=0.3 it=0.8 phi*=495 floor|E-M|=65.8 slope_dE=0.13483365469131708 slope_dM=0.10478032104746911 slope_dEfix=-0.3817057318022022 (naive -eta=-0.3)
+   X=    50 dE=     254.1 dM=     299.7 dEalt=     67.82 dEfix=     64.96
+   X=   100 dE=     249.7 dM=     300.2 dEalt=     39.12 dEfix=     60.11
+   X=   300 dE=     251.1 dM=     305.9 dEalt=     17.98 dEfix=      20.5
+   X=  1000 dE=     239.9 dM=     295.9 dEalt=     5.578 dEfix=     3.304
+   X=  3000 dE=     237.2 dM=       293 dEalt=     2.693 dEfix=     6.599
+q=1001 eta=0.3 it=2.0 phi*=495 floor|E-M|=44.8 slope_dE=0.03840535986014059 slope_dM=0.03958741385701407 slope_dEfix=-0.35027214080614233 (naive -eta=-0.3)
+   X=    50 dE=     246.1 dM=     267.1 dEalt=     29.18 dEfix=     34.49
+   X=   100 dE=     213.7 dM=     237.9 dEalt=     41.43 dEfix=     27.65
+   X=   300 dE=     236.4 dM=     260.6 dEalt=     19.22 dEfix=     17.36
+   X=  1000 dE=     240.5 dM=     265.8 dEalt=      13.8 dEfix=     10.78
+   X=  3000 dE=     248.1 dM=     273.1 dEalt=      6.18 dEfix=     4.862
+TOTAL 34.45218300819397
